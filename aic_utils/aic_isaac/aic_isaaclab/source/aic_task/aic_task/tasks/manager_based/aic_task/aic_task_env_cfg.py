@@ -276,9 +276,9 @@ class CommandsCfg:
         resampling_time_range=(4.0, 4.0),
         debug_vis=True,
         ranges=mdp.UniformPoseCommandCfg.Ranges(
-            pos_x=(0.55, 0.75),
-            pos_y=(-0.10, 0.02),
-            pos_z=(0.01, 0.15),
+            pos_x=(-0.45, -0.35),
+            pos_y=(0.35, 0.55),
+            pos_z=(0.15, 0.25),
             roll=(0.0, 0.0),
             pitch=MISSING,  # depends on end-effector axis
             yaw=(-3.14, 3.14),
